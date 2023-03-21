@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather";
+  font-size: 62.5%;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  position: relative;
+}
+.container {
+  width: 75vw;
+  margin: 0 auto;
+}
+.containers {
+  width: 90vw;
+  margin: 0 auto;
+  justify-items: center;
+}
+.btn {
+  width: auto;
+  border: 0;
+  border-radius: 4px;
+  padding: 0.8rem 1.6rem;
+}
+.btn:hover {
+  cursor: pointer;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
