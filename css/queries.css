@@ -80,6 +80,14 @@
   }
 }
 @media (max-width: 50em) {
+  .hero {
+    background-image: linear-gradient(
+        to right,
+        rgba(34, 34, 34, 0.3),
+        rgba(34, 34, 34, 0.2)
+      ),
+      url(../img/images/HeroImage.webp);
+  }
   .part-img {
     grid-template-columns: 1fr 1fr;
   }
